@@ -421,11 +421,17 @@ b{
     justify-content: space-around;
     flex-flow: column wrap;
 }
-	.menu ul {
+.menu ul {
     flex-flow: column nowrap;
     padding: 0 0;
     background: #fff;
-		display:none;
+	display:none;
+	transition: all .3s ease-in-out;
+	margin-top: translateY(-50px);
+}
+.menu ul.show{
+	display:block;
+	transform: translateY(0px);
 }
 .menu ul li {
     margin: auto;
