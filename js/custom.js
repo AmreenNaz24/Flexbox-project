@@ -1,3 +1,3 @@
 $('.collapse').click(function(){
-	$('.menu ul').slideToggle(500);
+	$('.menu ul').toggleClass('show');
 });
